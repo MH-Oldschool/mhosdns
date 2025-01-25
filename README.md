@@ -7,3 +7,7 @@ If you're experiencing issues with our public DNS server, you can use this softw
 ## How to build?
 
 Install all the dependencies listed in `requirements.txt`, then install `pyinstaller` and run `pyinstaller main.spec`. Alternatively, you can download a precompiled version from the Releases section.
+
+## Configuration
+
+By default, our common domains are hardcoded into the app. However, you can place the `domains.conf` file next to the executable to extend its functionality by adding new domains or modifying the IP addresses. If no `domains.conf` file is found, the app will fallback to the hardcoded domain/IP pairs.
