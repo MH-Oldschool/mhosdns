@@ -1,0 +1,15 @@
+__pycache__
+dist
+build
+
+# IDE configuration files
+.idea
+.vscode
+
+# virtualenv folder
+venv
+
+# Compiled libs
+**.pyd
+**.so
+**.pyc
